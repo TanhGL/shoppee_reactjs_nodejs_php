@@ -1,0 +1,42 @@
+.slick-dots-xw1q21 {
+  display: flex !important;
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  &.slick-thumb-312s {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  & > li {
+    margin: 0px 10px;
+
+    &:first-child {
+      margin-left: 0px;
+    }
+
+    & > a {
+      & > img {
+        box-sizing: border-box;
+        border: 1px solid transparent;
+      }
+    }
+
+    &.slick-active {
+      & > a {
+        & > img {
+          box-sizing: border-box;
+          border: 1px solid #000;
+        }
+      }
+    }
+  }
+}
